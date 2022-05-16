@@ -15,6 +15,7 @@ int main(){
     }
     std::cout << "Reversed: " << reversed << std::endl;
 
+    // Generate the reverse complement
     std::string revc; // to store reverse complement
     for (auto i:reversed){
         if(i=='A'){
