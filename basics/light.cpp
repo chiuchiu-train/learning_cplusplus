@@ -9,7 +9,7 @@ int main(){
     if(red_light == true){
         std::cout << "Stop!" << std::endl;
     }
-    elif(yellow_light ==true){
+    else if(yellow_light ==true){
         std::cout << "Slow Down!" << std::endl;
     }
     else{
